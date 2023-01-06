@@ -1,0 +1,88 @@
+{
+    "_default": {
+        "1": {
+            "name": "yardForm",
+            "issue_field": "email",
+            "join_field": "date",
+            "prevent_field": "telephone",
+            "tell_field": "telephone",
+            "product_field": "date",
+            "later_field": "email"
+        },
+        "2": {
+            "name": "RepublicanForm",
+            "every_field": "email",
+            "similar_field": "date"
+        },
+        "3": {
+            "name": "friendForm",
+            "husband_field": "text",
+            "finish_field": "telephone",
+            "term_field": "date",
+            "only_field": "text",
+            "keep_field": "text",
+            "can_field": "telephone"
+        },
+        "4": {
+            "name": "weekForm",
+            "wall_field": "text",
+            "grow_field": "date",
+            "feeling_field": "date"
+        },
+        "5": {
+            "name": "theyForm",
+            "mother_field": "email",
+            "impact_field": "text",
+            "film_field": "date",
+            "visit_field": "email",
+            "finish_field": "telephone"
+        },
+        "6": {
+            "name": "ratherForm",
+            "however_field": "telephone",
+            "across_field": "date",
+            "view_field": "telephone"
+        },
+        "7": {
+            "name": "hardForm",
+            "type_field": "telephone",
+            "culture_field": "telephone",
+            "year_field": "text",
+            "career_field": "text"
+        },
+        "8": {
+            "name": "senseForm",
+            "herself_field": "text",
+            "speech_field": "text",
+            "more_field": "telephone",
+            "building_field": "date",
+            "window_field": "date",
+            "recently_field": "text",
+            "night_field": "email",
+            "traditional_field": "date",
+            "along_field": "email"
+        },
+        "9": {
+            "name": "carForm",
+            "cultural_field": "telephone",
+            "teach_field": "email",
+            "take_field": "telephone",
+            "campaign_field": "text",
+            "forward_field": "date",
+            "senior_field": "text",
+            "soon_field": "telephone",
+            "during_field": "telephone",
+            "popular_field": "telephone",
+            "mean_field": "telephone"
+        },
+        "10": {
+            "name": "forForm",
+            "where_field": "email",
+            "song_field": "text",
+            "drug_field": "date",
+            "step_field": "text",
+            "plan_field": "telephone",
+            "minute_field": "text"
+        }
+    }
+}
