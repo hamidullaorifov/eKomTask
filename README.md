@@ -1,35 +1,59 @@
-﻿My python version is 3.11.0
+﻿# Web application for identifying completed forms
+This app implements tree menu using a template tag
 
-All required packeges  written in ***requirements.txt*** file
+## Getting started
+These instructions will help you set up and run the project on your local machine.
 
-#### Requirements
+### Prerequisites
 
-- antiorm==1.2.1
-- asgiref==3.6.0
-- certifi==2022.12.7
-- charset-normalizer==2.1.1
-- Django==4.1.5
-- djangorestframework==3.14.0
-- idna==3.4
-- pytz==2022.7
-- requests==2.28.1
-- sqlparse==0.4.3
-- tinydb==4.7.0
-- tzdata==2022.7
-- urllib3==1.26.13
+- python 3.x
+- pip
+- Git
+- Virtual Environment (recommended)
 
-Test cases are written for data in the ***db.json*** file 
+### Installation
 
-Steps to run
+1. Clone this repository to your local machine using the following command:
 
-- Install required packages
-    `pip install -r requirements.txt`
+    ```bash
+   git clone https://github.com/hamidullaorifov/eKomTask.git
+   ```
 
-- Run server
-    `python manage.py runserver`
+2. Navigate to the project directory:
 
-- Test
-    `python manage.py test api`
+    ```bash
+   cd eKomTask
+   ```
+
+3. Create a virtual environment (optional but recommended):
+
+    ```bash
+    python -m venv venv
+    ```
+
+4. Activate the virtual environment:
+
+- On Windows
+    ```bash
+    venv\Scripts\activate
+    ```
+- On macOS and Linux
+    ```bash
+    source venv/bin/activate
+    ```
+5. Install the project dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
+6. Run test cases
+    ```bash
+    python manage.py test api
+    ```
+7. Start the development server:
+    ```bash
+    python manage.py runserver
+    ```
+8. Send requests to http://localhost:8000/get_form/ .
 
 
 
